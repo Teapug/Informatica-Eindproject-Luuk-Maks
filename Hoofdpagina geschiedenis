@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geschiedenis Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welkom op de Geschiedenis Website</h1>
+    </header>
+    <main>
+        <section id="introductie">
+            <h2>Introductie</h2>
+            <p>Ontdek enkele van de meest invloedrijke gebeurtenissen in de wereldgeschiedenis.</p>
+        </section>
+        <section id="gebeurtenissen">
+            <h2>Belangrijke Gebeurtenissen</h2>
+            <div class="gebeurtenis" id="val-van-rome">
+                <h3>De Val van het West-Romeinse Rijk (476 n.Chr.)</h3>
+                <p>De val van Rome markeerde het einde van het oude Romeinse Rijk en het begin van de Middeleeuwen.</p>
+            </div>
+            <div class="gebeurtenis" id="ontdekking-amerika">
+                <h3>De Ontdekking van Amerika (1492)</h3>
+                <p>Christopher Columbus ontdekte Amerika, wat leidde tot het begin van de Europese kolonisatie van het continent.</p>
+            </div>
+            <div class="gebeurtenis" id="franse-revolutie">
+                <h3>De Franse Revolutie (1789-1799)</h3>
+                <p>Een periode van sociale en politieke omwentelingen in Frankrijk, die leidde tot het einde van de monarchie en de opkomst van Napoleon Bonaparte.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Geschiedenis Website</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
