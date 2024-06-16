@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +18,17 @@
         <section id="gebeurtenissen">
             <h2>Belangrijke Gebeurtenissen</h2>
             <div class="gebeurtenis" id="val-van-rome">
+                <img src="https://www.italieuitgelicht.nl/wp-content/uploads/2015/12/Forum-Romanum-Rome-1449586314.jpg">
                 <h3>De Val van het West-Romeinse Rijk (476 n.Chr.)</h3>
                 <p>De val van Rome markeerde het einde van het oude Romeinse Rijk en het begin van de Middeleeuwen.</p>
             </div>
             <div class="gebeurtenis" id="ontdekking-amerika">
+                <img src="https://cdn.britannica.com/22/143622-050-FD012047/Landing-Columbus-oil-canvas-John-Vanderlyn-US-1846.jpg">
                 <h3>De Ontdekking van Amerika (1492)</h3>
                 <p>Christopher Columbus ontdekte Amerika, wat leidde tot het begin van de Europese kolonisatie van het continent.</p>
             </div>
             <div class="gebeurtenis" id="franse-revolutie">
+                <img src="https://i0.wp.com/nlcshub.com/wp-content/uploads/2023/09/french-revolution-battle_396f7b8db4.jpg?fit=1024%2C576&ssl=1">
                 <h3>De Franse Revolutie (1789-1799)</h3>
                 <p>Een periode van sociale en politieke omwentelingen in Frankrijk, die leidde tot het einde van de monarchie en de opkomst van Napoleon Bonaparte.</p>
             </div>
