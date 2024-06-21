@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="">
+</head>
+
+<body onload="quiz()">
+    <ul>
+        <li><a class="active" href="#home">Hooftpagina</a></li>
+        <li><a href="#news">Introductie</a></li>
+        <li><a href="#contact">Informatie</a></li>
+        <li><a href="#about">Quiz</a></li>
+    </ul>
+    <br><br><br>
+    <div> <!-- ik gebruikte eerst een form maar dat veroorzaakte problemen, het herlaadde de pagina bij invoer. -->
+        <p id="vraag">Wat is de parent van deze radio boxes?</p>
+        <input value="1" name="rbs" class="rads" id="r1" type="radio" onclick="inputselected()">
+        <text id="r1t"></text>
+        <br>
+        <input value="2" name="rbs" class="rads" id="r2" type="radio" onclick="inputselected()">
+        <text id="r2t"></text>
+        <br>
+        <input value="3" name="rbs" class="rads" id="r3" type="radio" onclick="inputselected()">
+        <text id="r3t"></text>
+        <br>
+        <input value="4" name="rbs" class="rads" id="r4" type="radio" onclick="inputselected()">
+        <text id="r4t"></text>
+        <br><br>
+        <button id="but"type="button" onclick="check()">Answer</button>
+    </div>
+    <script src="../Sources/Scripts/quiz.js" defer></script>
+</body>
+
+</html>
