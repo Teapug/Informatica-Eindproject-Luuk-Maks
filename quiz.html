@@ -4,19 +4,21 @@
 <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="mainstyle.css">
 </head>
 
 <body onload="quiz()">
-    <ul>
-        <li><a class="active" href="#home">Hooftpagina</a></li>
-        <li><a href="#news">Introductie</a></li>
-        <li><a href="#contact">Informatie</a></li>
-        <li><a href="#about">Quiz</a></li>
+    <ul id="navbar">
+        <li class="nav nocur" ><a class="nocur"  href="hoofdpagina.html">Hooftpagina</a></li>
+        <li class="nav nocur" ><a class="nocur"  href="Rome.html">Rome</a></li>
+        <li class="nav nocur" ><a class="nocur"  href="Griekenland.html">Griekenland</a></li>
+        <li class="nav"><a class="active">Quiz</a></li>
+        <li><text id="cr">  Gemaakt door Luuk Hiep en Maks Smaga</text></li>
     </ul>
-    <br><br><br>
-    <div> <!-- ik gebruikte eerst een form maar dat veroorzaakte problemen, het herlaadde de pagina bij invoer. -->
-        <p id="vraag">Wat is de parent van deze radio boxes?</p>
+    <br>
+    <h1>Geschiedenis Quiz</h1>
+    <div id = "quiz"> <!-- ik gebruikte eerst een form maar dat veroorzaakte problemen, het herlaadde de pagina bij invoer. -->
+        <h3 id="vraag">Wat is de parent van deze radio boxes?</h3>
         <input value="1" name="rbs" class="rads" id="r1" type="radio" onclick="inputselected()">
         <text id="r1t"></text>
         <br>
@@ -31,7 +33,7 @@
         <br><br>
         <button id="but"type="button" onclick="check()">Answer</button>
     </div>
-    <script src="../Sources/Scripts/quiz.js" defer></script>
+    <script src="quiz.js"></script>
 </body>
 
 </html>

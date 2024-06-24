@@ -20,3 +20,12 @@ h3 {
     text-decoration-style:dotted;
     text-decoration-thickness: 2px;
 }
+#cr {
+    font-variant: small-caps;
+    color: white;
+    text-decoration: solid;
+    text-decoration-color: orange;
+    text-decoration-thickness: 2px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
