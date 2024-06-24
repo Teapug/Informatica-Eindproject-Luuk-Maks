@@ -5,8 +5,8 @@
 
 //variabelen
 var score = 0; //startscore
-var juistsfx = new Audio("juist.mp3");
-var foutsfx = new Audio("fout.mp3");
+var juistsfx = new Audio("bronnen/juist.mp3");
+var foutsfx = new Audio("bronnen/fout.mp3");
 const q = 11; //hoeveelheid vragen
 var quizpage = 1; //startpagina quiz
 var ca; //correct antwoordt, gebruikt in quiz() en check()
